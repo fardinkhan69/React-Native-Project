@@ -153,10 +153,10 @@ const BookDetail = ({ route, navigation }) => {
         >
           {/* Rating */}
           <View style={{ flex: 1, alignItems: "center" }}>
-            <Text style={{ ...FONTS.h3, color: COLORS.white }}>
+            <Text style={{ ...FONTS.h3, color: COLORS.black }}>
               {book.rating}
             </Text>
-            <Text style={{ ...FONTS.body4, color: COLORS.white }}>Rating</Text>
+            <Text style={{ ...FONTS.body4, color: COLORS.black }}>Rating</Text>
           </View>
 
           <LineDivider />
@@ -169,10 +169,10 @@ const BookDetail = ({ route, navigation }) => {
               alignItems: "center",
             }}
           >
-            <Text style={{ ...FONTS.h3, color: COLORS.white }}>
+            <Text style={{ ...FONTS.h3, color: COLORS.black }}>
               {book.watched}
             </Text>
-            <Text style={{ ...FONTS.body4, color: COLORS.white }}>
+            <Text style={{ ...FONTS.body4, color: COLORS.black }}>
               Watched
             </Text>
           </View>
@@ -181,10 +181,10 @@ const BookDetail = ({ route, navigation }) => {
 
           {/* Language */}
           <View style={{ flex: 1, alignItems: "center" }}>
-            <Text style={{ ...FONTS.h3, color: COLORS.white }}>
+            <Text style={{ ...FONTS.h3, color: COLORS.black }}>
               {book.language}
             </Text>
-            <Text style={{ ...FONTS.body4, color: COLORS.white }}>
+            <Text style={{ ...FONTS.body4, color: COLORS.black }}>
               Language
             </Text>
           </View>
