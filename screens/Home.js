@@ -53,7 +53,7 @@ const Home = ({ navigation }) => {
     const categoriesData = [
         {
             id: 1,
-            categoryName: "Best Seller",
+            categoryName: "Fan Favourite",
             books: [
                 naruto, flash, johnWickMovie
             ]
@@ -113,7 +113,7 @@ const Home = ({ navigation }) => {
                             />
                         </View>
 
-                        <Text style={{ marginLeft: SIZES.base, color: COLORS.white, ...FONTS.body3 }}>{profile.point} point</Text>
+                        <Text style={{ marginLeft: SIZES.base, color: COLORS.white, ...FONTS.body3 }}> Add Review </Text>
                     </View>
                 </TouchableOpacity>
             </View>
@@ -138,7 +138,7 @@ const Home = ({ navigation }) => {
                                     height: 30
                                 }}
                             />
-                            <Text style={{ marginLeft: SIZES.base, ...FONTS.body3, color: COLORS.white }}>Claim</Text>
+                            <Text style={{ marginLeft: SIZES.base, ...FONTS.body3, color: COLORS.black }}>Movies</Text>
                         </View>
                     </TouchableOpacity>
 
@@ -166,7 +166,7 @@ const Home = ({ navigation }) => {
                                     height: 30
                                 }}
                             />
-                            <Text style={{ marginLeft: SIZES.base, ...FONTS.body3, color: COLORS.white }}>Get Point</Text>
+                            <Text style={{ marginLeft: SIZES.base, ...FONTS.body3, color: COLORS.black }}>Series</Text>
                         </View>
                     </TouchableOpacity>
 
@@ -194,7 +194,7 @@ const Home = ({ navigation }) => {
                                     height: 30
                                 }}
                             />
-                            <Text style={{ marginLeft: SIZES.base, ...FONTS.body3, color: COLORS.white }}>My Card</Text>
+                            <Text style={{ marginLeft: SIZES.base, ...FONTS.body3, color: COLORS.black }}>Anime</Text>
                         </View>
                     </TouchableOpacity>
                 </View>
